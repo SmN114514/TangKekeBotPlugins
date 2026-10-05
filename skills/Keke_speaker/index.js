@@ -38,7 +38,7 @@ export function setup(api) {
 
       try {
         // 第一步：请求合成，拿到音频临时 URL
-        const ttsUrl = `https://${workspaceId}.cn-beijing.maas.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer`;
+        const ttsUrl = `这里改成你tts的url`;
         const ttsResp = await axios.post(
           ttsUrl,
           { model, input: { text }, parameters: { voice: voiceId } },

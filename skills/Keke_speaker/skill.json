@@ -1,3 +1,6 @@
+//我用的是qwen-audio-3.0-tts-flash模型 为唐可可训练声音，大家可以按照自己的需要再修改一下json
+
+
 {
   "id": "Keke_speaker",
   "name": "唐可可语音",
@@ -9,8 +12,8 @@
   "settings": {
     "apiKey": "",
     "workspaceId": "ws-zntpd7sgckv158o0",
-    "voiceId": "qwen-audio-3.0-tts-flash-keke-094f08b8e2ad49c7b5963811a5b18038",
-    "model": "qwen-audio-3.0-tts-flash"
+    "voiceId": "改成你模型的id",
+    "model": "改成你用的模型"
   },
   "configSchema": {
     "apiKey": {
