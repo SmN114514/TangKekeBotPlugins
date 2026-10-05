@@ -1,0 +1,11 @@
+{
+  "id": "getList",
+  "name": "好友列表测试",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "utility",
+  "description": "临时测试 get_friend_list 接口是否可用。",
+  "enabledByDefault": false,
+  "settings": {},
+  "configSchema": {}
+}

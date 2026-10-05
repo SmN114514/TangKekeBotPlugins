@@ -1,0 +1,48 @@
+{
+  "id": "Keke_speaker",
+  "name": "唐可可语音",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "media",
+  "description": "用唐可可的声音把一段话说出来，发成语音消息。",
+  "enabledByDefault": false,
+  "settings": {
+    "apiKey": "",
+    "workspaceId": "ws-zntpd7sgckv158o0",
+    "voiceId": "qwen-audio-3.0-tts-flash-keke-094f08b8e2ad49c7b5963811a5b18038",
+    "model": "qwen-audio-3.0-tts-flash"
+  },
+  "configSchema": {
+    "apiKey": {
+      "type": "string",
+      "label": "千问 API Key",
+      "description": "sk- 开头的 key。",
+      "secret": true
+    },
+    "workspaceId": {
+      "type": "string",
+      "label": "业务空间 ID",
+      "description": "百炼控制台的 ws- 开头 ID。"
+    },
+    "voiceId": {
+      "type": "string",
+      "label": "音色 ID",
+      "description": "声音复刻得到的 voice_id。"
+    },
+    "model": {
+      "type": "string",
+      "label": "TTS 模型",
+      "description": "默认 qwen-audio-3.0-tts-flash。"
+    }
+  },
+  "prompt": {
+    "sections": [
+      {
+        "id": "keke-speaker-note",
+        "title": "唐可可语音",
+        "priority": 35,
+        "content": "当你想用唐可可的声音说一句话时，调用 speak_as_keke 工具。普通聊天不需要每条都发语音，只在情绪到位、被要求说话、或者想强调某句话时才用。"
+      }
+    ]
+  }
+}
